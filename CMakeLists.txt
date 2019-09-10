@@ -64,7 +64,7 @@ install(FILES package.xml
     DESTINATION share/serial)
 
 ## Tests
-include(CTest)
-if(BUILD_TESTING)
-    add_subdirectory(tests)
-endif()
+#include(CTest)
+#if(BUILD_TESTING)
+#    add_subdirectory(tests)
+#endif()
